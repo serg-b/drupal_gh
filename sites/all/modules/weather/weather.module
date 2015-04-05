@@ -1,0 +1,71 @@
+<?php
+
+
+function weather_block_info() {
+    $blocks[ 'weather' ] = array(
+        'info' => "Weather"
+    );
+    return $blocks;
+}
+
+function weather_block_view( $delta = '' ) {
+    switch ($delta) {
+        case 'weather':
+            $block[ 'content' ] = weather_block();
+            break;
+    }
+    return $block;
+}
+
+function choose_city($form, &$form_state){
+    echo "Введіть назву англійською, наприклад Lviv , Kyiv, Odessa";
+    $form=array();
+    $form['name'] = array(
+        '#type'	=> 'textfield',
+        '#title' => t('Місто:'),
+        '#default_value' => t(''),
+    );
+    $form['submit'] = array(
+        '#type' => 'submit',
+        '#value' => t('Submit'),
+    );
+    return $form;
+}
+function main_function(){
+    $form = drupal_get_form('choose_city'); //отримуєм поля форми
+    $form = drupal_render($form); //рендерим форму
+    return $form;
+}
+
+function choose_city_validate($form, &$form_state){
+    if($form_state['values']['name']==''){
+        $form_state['values']['name']='Отсутствует';
+    }
+    if(mb_strlen($form_state['values']['name'])<3){
+        form_set_error('name', t('Слишком короткое имя.'));
+    }
+}
+
+function choose_city_submit($form, &$form_state){
+     $name = $form_state['values']['name'];
+     if ($name) {
+        variable_set('city', $name);
+     }
+}
+
+function weather_block() {
+    $city = variable_get('city','lviv');
+    $weather = simplexml_load_file( 'http://api.openweathermap.org/data/2.5/weather?q='.$city.'&mode=xml' );
+    $output = theme( 'weather', array( 'variable' => "Погода", 'weather' => $weather ) );
+    return $output;
+
+}
+
+function weather_theme() {
+    return array(
+        'weather' => array(
+            'template'  =>  'weather',
+            'variables' =>  ''
+        )
+    );
+}

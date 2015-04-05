@@ -1,0 +1,5 @@
+name = weather
+description = Weather block for drupal
+package = Weather
+core = 7.x
+files[] = weather.module

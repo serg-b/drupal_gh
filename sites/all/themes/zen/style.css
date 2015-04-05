@@ -1,0 +1,1024 @@
+body {
+    margin: 0 !important;
+    background: url('/sites/all/themes/zen/images/header_bg.png') repeat-x center -342px #fff;
+    color: #4c7689;
+}
+
+.inner {
+    float: right;
+    width: 661px;
+    margin-top: 15px;
+}
+
+tbody {
+    vertical-align: top;
+}
+p{
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+.site-header {
+    height: 108px;
+    background: url('/sites/all/themes/zen/images/header_bg.png') repeat-x center -342px #fff;
+    color: #4c7689;
+}
+
+.view-front-page {
+    margin-top: -15px;
+}
+
+.header-main {
+    height: 108px;
+    width: 901px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.registration-home {
+    width: 901px;
+    padding-top: 50px;
+    margin: 0 auto;
+    height: 271px;
+    position: relative;
+    background: url("/sites/all/themes/zen/images/splash.png") no-repeat 315px 30px;
+}
+
+header#masthead.home-header {
+    height: 450px;
+    background: url('/sites/all/themes/zen/images/header_bg.png') repeat-x top center  #fff;
+
+}
+
+.registration-home h4 {
+    position: relative;
+    z-index: 2;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    font-family: "Trebuchet MS";
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 62px;
+    color: #246685;
+    text-align: center;
+
+}
+
+.home-header form fieldset {
+    position: relative;
+    z-index: 100;
+    width: 460px;
+    margin: 0 auto;
+    border: none;
+}
+
+.home-header .splash {
+    position: absolute;
+    top: -25px;
+    left: 315px;
+    z-index: 1;
+    display: block;
+}
+
+.home-header form fieldset > span {
+    display: none;
+    position: absolute;
+    width: 220px;
+    height: 49px;
+    background: url("http://geekhub.ck.ua/images/ajax-loader.gif") center center no-repeat #000000;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
+
+.home-header form .email {
+    display: block;
+    float: left;
+    width: 217px;
+    height: 46px;
+    margin: 0 10px 0 0;
+    font-family: "Trebuchet MS";
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+}
+
+.home-header form input[type=submit] {
+    display: block;
+    float: left;
+    width: 217px;
+    height: 46px;
+    border: 0;
+    outline: 0;
+    background: url("http://geekhub.ck.ua/images/register_submit.png") center bottom no-repeat;
+    color: #fff;
+    text-align: center;
+    font-family: "Trebuchet MS";
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.home-header .note {
+    position: relative;
+    z-index: 2;
+    padding: 0 0 25px;
+    font-family: "Trebuchet MS";
+    font-weight: normal;
+    font-size: 25px;
+    color: #246685;
+    text-align: center;
+    margin: 0;
+}
+
+.home-header .header-main {
+    border-bottom: 1px solid #8ea8b3;
+}
+
+.logo {
+    margin-top: 18px;
+    float: left;
+}
+
+div#main-menu.navigation {
+    min-width: 471px;
+    height: 108px;
+    float: right;
+}
+
+div#main-menu.navigation ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+div#main-menu.navigation li {
+    float: left;
+    display: block;
+    margin-left: 26px;
+    height: 108px;
+    min-width: 44px;
+    text-align: center;
+}
+
+div#main-menu.navigation li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    color: #396375;
+    text-transform: uppercase;
+    display: block;
+    padding: 48px 0 44px;
+    font-size-adjust: 0.53;
+}
+
+a.active-trail.active {
+    t-align: center;
+    background: url('/sites/all/themes/zen/images/inner_active.png') center bottom no-repeat;
+}
+
+a.pink{
+    color: #E11D5D;
+    text-decoration: underline;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+}
+
+.social {
+    float: right;
+}
+
+.social li {
+    float: left;
+    margin-top: 18px;
+    margin-left: 8px;
+    display: block;
+    width: 24px;
+    height: 42px;
+}
+
+.social li a{
+    width: 24px;
+    height: 42px;
+    text-decoration: none;
+    display: block;
+    background: url('images/icons_social.png') no-repeat;
+    text-indent: -400px;
+    color: #396375;
+}
+
+.social li a:hover {
+    color: #E11D5D;
+    cursor: pointer;
+}
+
+.social .facebook a {
+   background-position: 0 10px;
+}
+
+.social .vk a{
+   background-position: -32px 10px;
+}
+
+.social .twitter a{
+    background-position: -64px 10px;
+}
+
+.social .y a{
+    background-position: -96px 10px;
+}
+
+#content {
+    width: 901px;
+    display: block;
+    margin: 0 auto;
+}
+
+article header h2 a {
+    font-family: "Trebuchet MS";
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 50px;
+    padding: 0 0 8px;
+    margin: 0 0 27px;
+
+}
+
+article header h2 {
+    margin-left: 105px;
+}
+
+.submitted {
+    display: none;
+}
+
+
+
+.post-thumbnail {
+    float: left;
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.entry-content {
+    width: 529px;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 250px;
+}
+
+footer {
+
+    width: 901px;
+    margin: 100px auto;
+    display: block;
+}
+
+ul.zv {
+
+    list-style: none;
+}
+
+.site-info {
+    overflow: hidden;
+    padding: 17px 0 0;
+    border-top: 1px solid #a7c3cf;
+    width: 901px;
+
+}
+
+.site-info .menu-geekhub-container {
+    width: 471px;
+
+    float: left;
+}
+
+.site-info .menu-geekhub-container ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.site-info #menu-geekhub-1 li {
+    float: left;
+    display: block;
+    margin-right: 26px;
+}
+
+.site-info #menu-geekhub-1 li a {
+    display: block;
+    height: 12px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: "Trebuchet MS";
+    color: #396375;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.site-info p {
+    display: block;
+    float: right;
+    font-size: 10px;
+    color: #a7c3cf;
+    font-family: arial;
+    margin: 0;
+}
+
+h3 {
+    font-family: Arial, sans-serif;
+    font-size: 27px;
+    font-weight: normal;
+    color: #eb3580;
+}
+
+.view--geekhub ul {
+    width: 822px;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.view--geekhub .views-field-field-description div {
+    display: block;
+    font-family: arial;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 5px;
+    color: #f3753e;
+    width: 185px;
+    height: 20px;
+    margin-right: 0;
+    text-align: right;
+
+}
+
+.view--geekhub .views-field-title a {
+    margin: 0px;
+    width: 190px;
+    display: block;
+    float: left;
+    font-size: 27px;
+    font-weight: normal;
+    color: #eb3580;
+    margin-top: 20px;
+    text-decoration: none;
+    text-align: right;
+}
+
+
+#post-33 .yes h3 {
+    text-align: left;
+}
+
+.view--geekhub li {
+    display: block;
+
+    width: 821px;
+    height: 185px;
+}
+
+
+
+.view--geekhub .views-field-body {
+    display: block;
+    margin-top: 10px;
+    float: right;
+    width: 421px;
+}
+
+.view--geekhub img {
+    margin-right: 20px;
+    margin-left: 20px;
+    display: block;
+    float: right;
+    margin-top: -20px;
+}
+
+#post-33 .yes .about {
+    text-align: right;
+}
+
+article.node-teaser.node-course {
+    float: left;
+    width: 295px;
+    padding: 24px 5px 24px 0;
+    border-top: 1px solid #D2DCE1;
+    cursor: pointer;
+
+}
+
+#page-front .field-name-field-image-course img {
+    display: block;
+    float: left;
+    margin-top: -60px;
+}
+
+article header h2 a{
+    font-family: "Trebuchet MS";
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 27px;
+    color: #EA2778;
+    text-decoration: none;
+}
+
+.main-content article.post .entry-content {
+    width: 100%;
+    margin-right: 0px;
+}
+
+.main-content article.post .entry-meta {
+    display: none;
+}
+
+.node-readmore {
+    display: block;
+    margin-left: 70px;
+    margin-top: -10px;
+}
+
+.node-readmore a{
+    display: block;
+
+    text-decoration: underline;
+    color: #EA2678 !important;
+
+}
+
+.field-name-field-image-course {
+    margin-left: 0px ;
+    margin-right: 10px;
+}
+
+.main-content article.post .entry-title  {
+    border-bottom: none;
+}
+
+.main-content article.post .entry-title a {
+    border-bottom: none;
+    width: 180px;
+
+    margin-top: 20px;
+    display: block;
+    float: left;
+}
+
+#page-front .field-type-text-with-summary {
+    width: 170px;
+    display: block;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    margin-left: 110px;
+}
+
+#page .node-course {
+    display: block;
+}
+
+
+
+.main-content article.post .entry-content p {
+    overflow: hidden;
+
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    line-height: 18px;
+    color: #39525A;
+}
+
+.single .type-post {
+    width: 661px;
+    float: right;
+}
+
+#page-course .inner #page-title {
+    padding: 0 0 18px;
+    color: #EA2778;
+    font-family: "Trebuchet MS";
+    font-weight: normal;
+    font-size: 24px;
+    border-bottom: none;
+    margin-bottom: 0px;
+    line-height: 20px;
+}
+
+.single .type-post .post-thumbnail {
+    float: right;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.single .type-post .entry-content {
+    width: 661px;
+    float: left;
+    margin-right: 0px;
+    margin-top: -80px;
+}
+
+.field-name-field-team-title {
+    margin-top: 25px;
+}
+
+.field-name-field-team-title .field-item {
+    clear: both;
+    text-align: center;
+    font-family: "Trebuchet MS";
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4C7687;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 0 0 8px;
+    position: relative;
+    z-index: 2;
+    border-bottom: 1px solid #D2DCE1;
+}
+
+#page-course .node-course .field-name-body .field-item {
+    margin: 0px;
+    width: 541px;
+}
+
+#page-course .field-name-field-image-course.field-type-image {
+    float: right;
+    margin-top: -35px;
+    margin-right: 0;
+}
+
+aside {
+    width: 200px;
+    float: left;
+    margin-top: 15px;
+    margin-right: 40px;
+}
+
+#block-views-our-course-block h2 {
+    text-align: center;
+    font-family: "Trebuchet MS";
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4C7687;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 0 0 8px;
+    position: relative;
+    z-index: 2;
+    border-bottom: 1px solid #D2DCE1;
+    margin: 0px;
+}
+
+#block-views-our-course-block .field-content {
+    border-bottom: 1px dotted #D2DCE1;
+    list-style: none;
+    width: 200px;
+    display: block;
+}
+
+#block-views-our-course-block .field-content a {
+    display: block;
+    padding: 7px 0 7px 8px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: #E11D5D;
+}
+
+aside ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.field-name-field-team-course {
+    margin: 0px;
+    padding: 0px;
+    width: 661px;
+    float: left;
+}
+
+.field-name-field-team-course article {
+    width: 661px;
+    height: 194px;
+    list-style: none;
+}
+
+.field-name-field-team-course article .node-readmore {
+    display: none;
+}
+
+.field-name-field-team-course article img {
+    margin-right: 30px;
+    float: left;
+    margin-top: 5px;
+}
+
+.field-name-field-team-course article header h2 {
+    width: 460px;
+    float: right;
+    margin-left: 0;
+    height: 20px;
+}
+
+.field-name-field-team-course article header h2 a {
+
+    font-family: "Trebuchet MS";
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+    color: #EA2678;
+
+    display: block;
+    width: 460px;
+
+}
+
+.field-name-field-team-course .field-name-body .field-item {
+    width: 460px !important;
+    float: left !important;
+}
+
+
+
+.front-text {
+    text-align: center;
+    font-family: "Trebuchet MS";
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4C7687;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top:20px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 15px;
+}
+
+li.node-readmore a{
+    font-family: arial, sans-serif;
+    font-size: 12px;
+}
+
+.field-content a{
+    font-family: Arial, sans-serif;
+}
+
+
+.main-content article.post:nth-child(3n-1) {
+    clear: both;
+}
+
+.widget_text {
+    float: left;
+    position: static !important;
+    width: 276px;
+}
+
+#text-3 {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+#block-block-3 h4 {
+    text-align: center;
+    font-family: "Trebuchet MS";
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    padding: 0 0 8px;
+    margin: 0 0 22px;
+    border-bottom: 1px solid #a7c3cf;
+
+}
+
+#block-block-3 li {
+    list-style: none;
+}
+
+#block-block-3 ul {
+    padding: 0px;
+}
+
+#block-block-3 ul li {
+    float: left;
+    padding: 0 12px 14px;
+    margin: 0;
+    outline: none;
+}
+
+#block-block-3 ul li a {
+    display: block;
+    text-indent: -200px;
+    overflow: hidden;
+    background: url("http://geekhub.ck.ua/images/sponsors.png") no-repeat;
+}
+
+#block-block-3 ul li.de a {
+    width: 70px;
+    height: 54px;
+    background-position: 0 -76px;
+}
+
+#block-block-3 ul li.de a:hover {
+    width: 70px;
+    height: 54px;
+    background-position: 0 0px;
+}
+
+#block-block-3 ul li.moc a {
+    width: 72px;
+    height: 46px;
+    background-position: -101px -76px;
+}
+
+#block-block-3 ul li.moc a:hover {
+    width: 72px;
+    height: 46px;
+    background-position: -101px 0px;
+}
+
+#block-block-3 ul li.sergium a {
+    width: 45px;
+    height: 48px;
+    background-position: -209px -76px;
+}
+
+#block-block-3 ul li.sergium a:hover {
+    width: 45px;
+    height: 48px;
+    background-position: -209px 0px;
+}
+
+#block-block-3 ul li.stuff a {
+    width: 59px;
+    height: 49px;
+    background-position: -283px -76px;
+}
+
+#block-block-3 ul li.stuff a:hover {
+    width: 59px;
+    height: 49px;
+    background-position: -283px 0px;
+}
+
+#block-block-3 ul li.stuff {
+    margin: 0 0 0 60px;
+    clear: both;
+}
+
+#block-block-3 ul li.youthog a {
+    width: 61px;
+    height: 44px;
+    background-position: -385px -76px;
+}
+
+#block-block-3 ul li.youthog a:hover {
+    width: 61px;
+    height: 44px;
+    background-position: -385px 0px;
+}
+
+#block-block-3 ul li.jetbrains a {
+    width: 107px;
+    height: 40px;
+    background-position: -472px -76px;
+}
+
+#block-block-3 ul li.jetbrains a:hover {
+    width: 107px;
+    height: 40px;
+    background-position: -472px -2px;
+}
+
+#block-block-3 ul li.jetbrains {
+    margin: 0 0 0 27px;
+}
+
+#block-block-3 ul li.ucoz a:hover {
+    width: 58px;
+    height: 49px;
+    background-position: -944px 0px;
+}
+
+#block-block-3 ul li.ucoz a {
+    width: 58px;
+    height: 49px;
+    background-position: -944px -76px;
+}
+
+#block-block-3 ul li.spd-ukraine a {
+    width: 140px;
+    height: 25px;
+    background-position: -611px -76px;
+}
+
+#block-block-3 ul li.spd-ukraine a:hover {
+    width: 140px;
+    height: 25px;
+    background-position: -611px -9px;
+}
+
+#block-block-3 ul li.spd-ukraine {
+    float: none;
+    clear: both;
+    margin: 0 0 0 54px;
+}
+
+#block-block-3 ul li.ekreative a {
+    width: 129px;
+    height: 34px;
+    background-position: -781px -75px;
+}
+
+#block-block-3 ul li.ekreative a:hover {
+    width: 129px;
+    height: 34px;
+    background-position: -781px -5px;
+}
+
+#block-block-3 ul li.ekreative {
+    float: none;
+    clear: both;
+    margin: 0 0 0 56px;
+}
+
+#block-block-3 ul li.n3wnormal a {
+    width: 140px;
+    height: 39px;
+    background-position: -1034px -76px;
+}
+
+#block-block-3 ul li.n3wnormal a:hover {
+    width: 140px;
+    height: 39px;
+    background-position: -1034px -5px;
+}
+
+#block-block-3 ul li.n3wnormal {
+    float: none;
+    clear: both;
+    margin: 0 0 0 52px;
+}
+
+#block-block-3 ul li.in-ck-ua a {
+    width: 139px;
+    height: 32px;
+    background-position: -1216px -76px;
+}
+
+#block-block-3 ul li.in-ck-ua a:hover {
+    width: 139px;
+    height: 32px;
+    background-position: -1216px -7px;
+}
+
+#block-block-3 ul li.in-ck-ua {
+    float: none;
+    clear: both;
+    margin: 0 0 0 52px;
+}
+
+.block-block {
+    width: 300px;
+    float: left;
+}
+
+#footer-sidebar {
+    height: inherit !important;
+}
+
+#map {
+    width: 415px;
+    height: 334px;
+    background: url('/wp-content/themes/twentyfourteen/images/map.png') no-repeat;
+    padding-top: 17px;
+    padding-left: 16px;
+    margin-left: -350px;
+    float: left;
+}
+
+#wpgmza_map {
+    width: 382px !important;
+    height: 287px !important;
+}
+
+.view--geekhub .view-content ul li:nth-child(2n) .views-field-body, .view--geekhub .view-content ul li:nth-child(2n) img {
+    float: left;
+    text-align: right;
+}
+
+.view--geekhub .view-content ul li:nth-child(2n) .views-field-title a, .view--geekhub .view-content ul li:nth-child(2n) .views-field-field-description div {
+    float: right;
+    text-align: left;
+}
+
+.page__title {
+    font-family: "Trebuchet MS";
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 50px;
+    padding: 0 0 8px;
+    margin: 0 0 27px;
+    border-bottom: 1px solid #a7c3cf;
+    margin-top:20px;
+}
+
+#page-basic .field-name-field-basic-image {
+    float: left;
+    margin-left: 20px;
+}
+
+#page-basic .field-name-body {
+    width: 529px;
+    float: right;
+    margin-top: -20px;
+    margin-right: 20px;
+}
+
+#page-60 .field-name-body .field-item {
+    width: 500px;
+    float: right;
+}
+
+#page-60 .field-name-body {
+    width: 450px;
+    float: right;
+}
+
+#page-60 img {
+    float: left;
+}
+
+div.field-name-field-gmap{
+    width:50%;
+    display: inline-block;
+}
+div.field-name-field-map-desc{
+    width:50%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top:55px;
+}
+div.map_wrap{
+    background-image:url('/sites/all/themes/zen/images/map.png');
+    background-repeat: no-repeat;
+    padding:15px;
+}
+p.email{
+    font-size: 34px;
+    font-family: arial, sans-serif;
+    text-align: center;
+}
+p.email a{
+    color:#4c7689;
+    text-decoration: none;
+}
+#block-weather-weather{
+    display: inline-block;
+}
+.weather_module{
+    background: rgb(125,126,125); /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzdkN2U3ZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwZTBlMGUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(125,126,125,1)), color-stop(100%,rgba(14,14,14,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-8 */
+
+    color: #fff;
+    padding: 20px;
+
+}
+.city{
+    display: inline-block;
+    padding: 5px;
+    font-family: monospace;
+    font-size: 40px;
+    vertical-align: top;
+}
+.params{
+    display: inline-block;
+    padding: 5px;
+    font-family: monospace;
+    font-size: 16px;
+}
+.choose-city{
+    margin-top: 30px;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.choose-city input{
+    width: 100px;
+}
